@@ -1,5 +1,4 @@
 .footer {
-    width: 100vw;
     padding-top: 15px;
     height: 100px;
     background-color: #121619;
@@ -9,6 +8,7 @@
     align-items: center;
     justify-content: center;
     box-shadow: 0px -5px 10px #121619;
+    overflow-x: hidden;
 }
 
 .icons {

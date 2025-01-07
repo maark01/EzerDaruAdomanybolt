@@ -3,6 +3,7 @@
     position: relative;
     background-color: #450920;
     color: #f9dbbd;
+    overflow-x: hidden; // Ez megakadályozza a vízszintes görgetést
 }
 
 .text-box::before {
@@ -40,14 +41,6 @@
 .text-box,
 .text-box::before,
 .text-box::after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.text-box h2,
-.text-box p,
-.text-box ul {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;

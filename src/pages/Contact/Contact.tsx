@@ -28,7 +28,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="shop-phone col-sm-12 col-md-4 col-lg-4">
+        <div className="shop-phone col-sm-12 col-md-4 col-lg-4 p-3">
           <h3 className="my-2 text-center">Elérhetőségek</h3>
           <ul className="mx-auto text-center">
             <li><i className="fa-regular fa-envelope"></i>ezerdaruadomanybolt@gmail.com</li>
