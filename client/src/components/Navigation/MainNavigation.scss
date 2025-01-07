@@ -1,0 +1,24 @@
+.header {
+    padding: 1rem;
+    position: fixed;
+    z-index: 1;
+    background-color: #44091f !important;
+    font-weight: bold;
+    width: 100%;
+
+    .header-link {
+        color: #f9dbbd !important;
+        text-decoration: none;
+        margin: 0 5px 0;
+        text-align: center;
+    }
+
+    .header-link:hover {
+        color: #a05561 !important;
+    }
+
+    .daruLogo {
+        max-height: 4rem;
+        max-width: 4rem;
+    }
+}
