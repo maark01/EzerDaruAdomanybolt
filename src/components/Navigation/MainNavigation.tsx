@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
-import { Navbar, Nav } from "react-bootstrap"
-import { NavLink } from "react-router-dom"
+import { Navbar, Nav } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom'
 import { NavbarSection } from './navbar-model'
 import { pagesContext } from '../../contexts/PagesContext'
 import daruImg from '../../assets/parallax_images/daru_logo_white.png'
@@ -19,13 +19,13 @@ const MainNavigation = () => {
   }
 
   return (
-    <Navbar expand="lg" data-bs-theme="dark" className="px-3 header">
-      <Navbar.Brand href="/" className="fw-bold">
-        <img className='daruLogo' src={daruImg} alt="daruImg" />
+    <Navbar expand='lg' data-bs-theme='dark' className='px-3 header'>
+      <Navbar.Brand href='/' className='fw-bold'>
+        <img className='daruLogo' src={daruImg} alt='daruImg' />
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="navbarNavAltMarkup" />
-      <Navbar.Collapse id="navbarNavAltMarkup">
-        <Nav className="me-auto">
+      <Navbar.Toggle aria-controls='navbarNavAltMarkup' />
+      <Navbar.Collapse id='navbarNavAltMarkup'>
+        <Nav className='me-auto'>
           {pages.map((elem: NavbarSection) =>
             elem.children
               .filter((child: { menubar: boolean }) => child.menubar)

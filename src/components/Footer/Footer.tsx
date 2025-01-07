@@ -1,12 +1,12 @@
-import { Link } from "react-router-dom"
-import "./Footer.scss"
+import { Link } from 'react-router-dom'
+import './Footer.scss'
 
 
 export default function Footer() {
 
 
     return (
-        <div className="footer container-fluid">
+        <div className='footer container-fluid'>
             <p>Ezer Daru Adománybolt &copy; 2025</p>
         </div>
     )

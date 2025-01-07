@@ -7,6 +7,6 @@ import './App.scss';
 const App = () => {
     const [pages] = useState(PagesContextDefaults.value);
     const router = createBrowserRouter(pages);
-    return (_jsx("div", { className: "App", children: _jsx(RouterProvider, { router: router }) }));
+    return (_jsx("div", { className: 'App', children: _jsx(RouterProvider, { router: router }) }));
 };
 export default App;

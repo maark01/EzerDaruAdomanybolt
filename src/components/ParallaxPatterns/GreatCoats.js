@@ -1,8 +1,8 @@
 import { jsx as _jsx } from "react/jsx-runtime";
-import { Parallax } from "react-parallax";
-import outdoorFurnitureImg from "../../assets/parallax_images/clothes_2.jpg";
+import { Parallax } from 'react-parallax';
+import GreatCoatsImg from '../../assets/parallax_images/clothes_2.jpg';
 import './parallax-patterns-styles.scss';
-const OutdoorFurniture = () => {
-    return (_jsx(Parallax, { className: "parallax-pattern-image", blur: 0, bgImage: outdoorFurnitureImg, strength: 800, bgImageStyle: { minHeight: "100vh" } }));
+const GreatCoats = () => {
+    return (_jsx(Parallax, { className: 'parallax-pattern-image', blur: 0, style: { backGroundColor: '#fdf9f0' }, bgImage: GreatCoatsImg, strength: 800, bgImageStyle: { minHeight: '100vh' } }));
 };
-export default OutdoorFurniture;
+export default GreatCoats;
