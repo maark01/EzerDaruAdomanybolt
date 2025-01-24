@@ -1,19 +1,29 @@
-import React, { useEffect } from "react"
-import "../pages-styles.scss"
+import React, { useEffect } from 'react'
+import './About.scss'
 
 
 const About = () => {
-
   useEffect(() => {
     window.scrollTo(0, 0)
-  }, [])
+  }, []);
 
   return (
-    <div className="text-box" id="about">
+    <div className='about-box' id='about'>
       <h2>Rólunk</h2>
       <p>
-        Az Ezer Daru Adományboltban kisebb lakberendezési tárgyaktól és sporteszközöktől kezdve a ruhákig, ékszerekig és régiségekig mindent megtalálsz, ami másnak már nem kellett, de neked még hasznos lehet. <br />
-        Célunk az újrafelhasználás, hogy neked ne kelljen kidobnod, hogy másnak meg ne kelljen újat vennie.
+        Az Ezer Daru Adománybolt a Pestszentimrei Nagycsaládos Egyesület által működtetett adománybolt tapasztalataira alapozva 2016-ban alakult.<br />
+        Első üzletünket Kispesten nyitottuk, többszöri költözés után a Wekerlén, Kós Károly téren találtunk otthonra.
+        Pestszentimrén 2023. novemberében nyitottuk meg második adományboltunkat.<br />
+      </p>
+      <p>
+        Boltunk nonprofit módon működik, vagyis áraink úgy vannak meghatározva, hogy költségeinket fedezzék, ezért haszon nem képződik. Ugyanakkor segítjük a hajléktalan ellátást, utcai szolgálatot, támogatunk anyaotthonokat, vidéki óvodákat, állatmenhelyeket és mindenkit, akinek segíteni tudunk.
+        Támogatást nem kapunk, boltunknak önállóan kell fenntartania magát. Fizetnünk kell bérleti díjat, rezsi költségeket, munkatársaink után a járulékokat, adót, és egyéb költségeinket.
+      </p>
+      <p>
+        Adományboltunkat sokan szeretik, népszerű nem csak a helybéliek körében, a környező településekről is sokan látogatnak minket. Vásárlóink között vannak, akik környezetvédelmi szempontokat tartják szemelőtt, sokan a kedvező árakért jönnek hozzánk.
+      </p>
+      <p className='text-center'>
+        Szeretettel várunk minden vásárlót és ezúton is köszönünk minden jó szívű adományt!
       </p>
     </div>
   )

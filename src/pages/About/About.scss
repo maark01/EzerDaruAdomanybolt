@@ -1,4 +1,4 @@
-.text-box {
+.about-box {
     text-align: center;
     position: relative;
     background-color: #450920;
@@ -6,31 +6,31 @@
     overflow-x: hidden;
 }
 
-.text-box::before {
+.about-box::before {
     content: "";
     display: block;
     height: 4.5rem;
 }
 
-.text-box::after {
+.about-box::after {
     content: "";
     display: block;
     height: 4.5rem;
 }
 
-.text-box h2 {
+.about-box h2 {
     padding-bottom: 1rem;
 }
 
-.text-box p {
+.about-box p {
     max-width: 60rem;
     font-size: 1.5rem;
     margin: 0 auto;
     padding: 1rem;
-    text-align:center;
+    text-align:justify;
 }
 
-.text-box ul {
+.about-box ul {
     max-width: 25rem;
     font-size: 1.15rem;
     margin: 0 auto;
@@ -38,33 +38,10 @@
     list-style-type: none;
 }
 
-.text-box,
-.text-box::before,
-.text-box::after {
+.about-box,
+.about-box::before,
+.about-box::after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-}
-
-.opening-hours-list li {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.shop-info {
-    display: flex;
-    justify-content: center;
-    max-height: 100rem;
-}
-
-.card {
-    max-width: 25rem;
-    height: auto;
-    border: none !important;
-}
-
-.card div {
-    background-color: #450920;
-    color: #f9dbbd;
 }

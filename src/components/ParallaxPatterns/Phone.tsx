@@ -6,7 +6,7 @@ import './parallax-patterns-styles.scss'
 const Phone = () => {
     
     return (
-        <Parallax className='parallax-pattern-image' blur={0} bgImage={phoneImg} strength={800} bgImageStyle={{ minHeight: '100vh' }} />
+        <Parallax className='parallax-pattern-image' blur={0} bgImage={phoneImg} strength={800} bgImageStyle={{ maxHeight: '100vh' }} />
     )
 }
 

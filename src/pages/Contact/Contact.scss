@@ -1,4 +1,4 @@
-.text-box {
+.contact-box {
     text-align: center;
     position: relative;
     background-color: #450920;
@@ -6,23 +6,23 @@
     overflow-x: hidden;
 }
 
-.text-box::before {
+.contact-box::before {
     content: "";
     display: block;
     height: 4.5rem;
 }
 
-.text-box::after {
+.contact-box::after {
     content: "";
     display: block;
     height: 4.5rem;
 }
 
-.text-box h2 {
+.contact-box h2 {
     padding-bottom: 1rem;
 }
 
-.text-box p {
+.contact-box p {
     max-width: 60rem;
     font-size: 1.5rem;
     margin: 0 auto;
@@ -30,7 +30,7 @@
     text-align:center;
 }
 
-.text-box ul {
+.contact-box ul {
     max-width: 25rem;
     font-size: 1.15rem;
     margin: 0 auto;
@@ -38,9 +38,9 @@
     list-style-type: none;
 }
 
-.text-box,
-.text-box::before,
-.text-box::after {
+.contact-box,
+.contact-box::before,
+.contact-box::after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
