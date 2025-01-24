@@ -1,11 +1,14 @@
-import { Background, Parallax } from 'react-parallax'
+import SimpleParallax from 'simple-parallax-js'
 import coatStandImg from '../../assets/parallax_images/clothes_3.jpg'
 import './parallax-patterns-styles.scss'
 
 
 const CoatStand = () => {
+
     return (
-        <Parallax className='parallax-pattern-image' style={{ backgroundColor: '#fdf9f0' }} blur={0} bgImage={coatStandImg} strength={800} bgImageStyle={{ minHeight: '100vh' }} />
+        <SimpleParallax orientation='right' scale={1.4} delay={1}>
+            <img src={coatStandImg} alt='GreatCoatsImg' className='d-flex mx-auto' />
+        </SimpleParallax>
     )
 }
 

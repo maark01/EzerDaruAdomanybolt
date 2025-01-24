@@ -1,11 +1,7 @@
-import React, { useEffect } from 'react'
 import './Founders.scss'
 
 
 const Founders = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, []);
 
   return (
     <div className='founders-box' id='founders'>

@@ -1,11 +1,8 @@
-import React, { useEffect } from "react"
 import "./Mission.scss"
 
 
 const Mission = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, []);
+
 
   return (
     <div className="mission-box" id="mission">

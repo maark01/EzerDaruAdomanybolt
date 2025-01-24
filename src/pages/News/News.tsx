@@ -1,13 +1,7 @@
-import React, { useState, useEffect, useContext } from 'react'
 import './News.scss'
 
 
 const News = () => {
-
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, []);
-
 
   return (
       <div className='text-center news-box' id='news'>

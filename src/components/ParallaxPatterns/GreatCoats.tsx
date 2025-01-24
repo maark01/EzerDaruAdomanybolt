@@ -1,13 +1,18 @@
-import { Parallax } from 'react-parallax'
 import GreatCoatsImg from '../../assets/parallax_images/clothes_2.jpg'
+import SimpleParallax from "simple-parallax-js"
 import './parallax-patterns-styles.scss'
 
 
 const GreatCoats = () => {
-    
+
     return (
-        <Parallax className='parallax-pattern-image' blur={0} style={{backGroundColor: '#fdf9f0'}} bgImage={GreatCoatsImg} strength={800} bgImageStyle={{ minHeight: '100vh' }} />
+        <div className='parallax-pattern-image'>
+            <SimpleParallax orientation='left' scale={1.26} delay={1}>
+                <img src={GreatCoatsImg} alt='GreatCoatsImg' className='d-flex mx-auto' />
+            </SimpleParallax>
+        </div>
     )
+
 }
 
 export default GreatCoats

@@ -1,11 +1,7 @@
-import React, { useEffect } from "react"
 import "./Customers.scss"
 
 
 const Customers = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, []);
 
   return (
     <div className="customers-box" id="customers">

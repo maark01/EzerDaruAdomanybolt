@@ -1,11 +1,15 @@
-import { Parallax } from 'react-parallax'
+import SimpleParallax from 'simple-parallax-js'
 import clothesImg from '../../assets/parallax_images/kitchen_tools_02.jpg'
 import './parallax-patterns-styles.scss'
 
 
 const Clothes = () => {
     return (
-        <Parallax className='parallax-pattern-image' blur={0} bgImage={clothesImg} strength={800} bgImageStyle={{ minHeight: '100vh'}}/>
+        <div className='parallax-pattern-image'>
+            <SimpleParallax orientation='down' scale={1.4} delay={1}>
+                <img src={clothesImg} alt='GreatCoatsImg' className='d-flex mx-auto' />
+            </SimpleParallax>
+        </div>
     )
 }
 
