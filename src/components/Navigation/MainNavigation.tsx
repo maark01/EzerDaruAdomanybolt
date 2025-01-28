@@ -28,10 +28,6 @@ const MainNavigation = () => {
       <Navbar.Toggle aria-controls="navbarNavAltMarkup" />
       <Navbar.Collapse id="navbarNavAltMarkup">
         <Nav className="me-auto">
-       {/*    {pages[0].children.filter((elem: { menubar: boolean }) => elem.menubar).map((elem: any) =>
-            <NavLink key={elem.path} to={`#${elem.path}`} onClick={(e) => handleNavLinkClick(e, elem.path)} className='header-link'>
-              {elem.name}
-            </NavLink>)} */}
           {pages.map((elem: NavbarSection) =>
             elem.children
               .filter((child: { menubar: boolean }) => child.menubar)
